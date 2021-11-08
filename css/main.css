@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+#mainContainer {
+  width: 99%;
+  height: 950px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+#contentContainer {
+  width: 90%;
+  height: 900px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+
+.itemContainer {
+  width: 90%;
+  height: 300px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.item {
+  width: 30%;
+  height: 280px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px lightgray;
+}
