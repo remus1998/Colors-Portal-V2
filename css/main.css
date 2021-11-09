@@ -7,6 +7,24 @@ h1 {
   text-align: center;
 }
 
+#btn {
+  width: 80px;
+  height: 50px;
+  border-radius: 10%;
+  background-color: white;
+  border: none;
+  box-shadow: 3px 3px 3px lightgray;
+  color: gray;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 30px;
+}
+#btn:hover {
+  background-color: lightgray;
+  color: white;
+  box-shadow: none;
+}
+
 #mainContainer {
   width: 99%;
   height: 950px;
